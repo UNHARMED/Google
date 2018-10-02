@@ -157,6 +157,8 @@ textarea {
 .body {
   text-align: center;
   margin-top: 11%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .body img {
@@ -183,6 +185,13 @@ textarea {
   box-shadow: 0 5px 5px 0 rgba(0,0,0,0.16), 0 0 0 2px rgba(0,0,0,0.08);
 }
 
+.searchbar_voc {
+  position: relative;
+  bottom: 33px;
+  left: 270px;
+  height:25px;
+  cursor: pointer;
+}
 /* SUBMIT BUTTON */
 
 .submit {
@@ -197,7 +206,7 @@ textarea {
   height: 35px;
   margin-right: 2px;
   margin-left: 2px;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 .submit:hover {
@@ -233,7 +242,10 @@ textarea {
                       right: 0;
                       left: 0;
   padding-left: 30px;
+  min-width: 800px;
 }
+
+/* FOOTER TOP (COUNTRY) */
 
 .footer_top {
   border-top: solid 1px #e4e4e4;
@@ -245,6 +257,8 @@ textarea {
   font-size: 14px;
 }
 
+/* FOOTER BOT */
+
 .footer_bot {
   border-top: solid 1px #e4e4e4;
   height: 40px;
@@ -252,6 +266,8 @@ textarea {
   font-family: sans-serif;
 
 }
+
+/* FOOTER BOT WORDS */
 
 .footer_bot a {
   text-decoration: none;
@@ -264,12 +280,15 @@ textarea {
   text-decoration: underline;
 }
 
+/* SPAN FOOTER BOT */
 .span_left {
 }
 
 .span_right {
   position: absolute; right: 0;
 }
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

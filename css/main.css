@@ -235,6 +235,8 @@ textarea {
   padding-left: 30px;
 }
 
+/* FOOTER TOP (COUNTRY) */
+
 .footer_top {
   border-top: solid 1px #e4e4e4;
   height: 40px;
@@ -245,6 +247,8 @@ textarea {
   font-size: 14px;
 }
 
+/* FOOTER BOT */
+
 .footer_bot {
   border-top: solid 1px #e4e4e4;
   height: 40px;
@@ -252,6 +256,8 @@ textarea {
   font-family: sans-serif;
 
 }
+
+/* FOOTER BOT WORDS */
 
 .footer_bot a {
   text-decoration: none;
@@ -264,6 +270,7 @@ textarea {
   text-decoration: underline;
 }
 
+/* SPAN FOOTER BOT */
 .span_left {
 }
 
